@@ -309,7 +309,7 @@ export const experience: TimelineItem[] = [
       role, focusing on Power BI and business intelligence. I work on transforming raw data into actionable 
       insights, developing interactive dashboards, and optimizing reporting processes to support decision-making. 
       My role involves working with various datasets, automating workflows, and continuously improving data 
-      visualization strategies to enhance operational efficiency.
+      visualization strategies to enhance operational efficiency. 
       </p>
     ),
   },
