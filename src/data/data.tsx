@@ -69,18 +69,19 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hi, I'm Thomas Karskens`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a <strong className="text-stone-100">Data Analyst</strong>, <strong className="text-stone-100">Power Bi Expert </strong> 
+        and <strong className="text-stone-100">tech enthousiast</strong> currently working
+        at <strong className="text-stone-100">a very well known postal operator in Belgium</strong>,  delivering data-driven insights and reports.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      In my free time, you can catch me exploring the latest news on 
+      <strong className="text-stone-100"> AI</strong>, going on <strong className="text-stone-100">
+        nature hikes</strong>, or <strong className="text-stone-100"> producing music</strong>.
+
       </p>
     </>
   ),
@@ -104,16 +105,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Data Analyst with two years of experience in data visualization and business intelligence, 
+  specializing in Power BI, Python, and automation. Passionate about AI, tech exploration, and data-driven solutions. 
+  Multilingual and adaptable, I enjoy hiking in nature and immersing myself in music when I'm not experimenting with the latest technologies.
+`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Location', text: 'Tournai (Doornik), Hainaut', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: 'Belgian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Music, Nature, AI', Icon: SparklesIcon},
+    {label: 'Study', text: 'UCLouvain (2022)', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Bpost Group', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,67 +127,67 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'French',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'English',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
+        name: 'Dutch',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Data Analytic tools',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Power BI',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Streamlit',
+        level: 7,
       },
       {
-        name: 'Swift',
+        name: 'Dash',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Data Manipulation',
+    skills: [
+      {
+        name: 'Pandas / NumPy',
+        level: 6,
+      },
+      {
+        name: 'Knime',
+        level: 5,
+      },
+      {
+        name: 'SQL',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'Others',
+    skills: [
+      {
+        name: 'Python',
+        level: 5,
+      },
+      {
+        name: 'HTML/CSS/JS',
         level: 3,
+      },
+      {
+        name: 'Teamwork (Trello/Jira/Slack',
+        level: 4,
       },
     ],
   },
@@ -196,71 +198,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Real-time Asset Availability Dashboard',
+    description: 'Designed and implemented a Power BI dashboard to automate data retrieval from databases, enabling real-time calculations and insights into key asset availability. This project streamlined decision-making processes and improved operational efficiency.',
+    url: 'https://www.microsoft.com/en-us/power-platform/products/power-bi',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'AI Chatbot with RAG Technology',
+    description: 'Developed a proof of concept for a chatbot leveraging Retrieval-Augmented Generation (RAG) technology, designed to utilize the company\'s internal documentation as a knowledge base. This solution provided accurate, context-driven responses to users\' queries.',
+    url: 'https://streamlit.io/',
     image: porfolioImage2,
   },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+  // {
+  //   title: 'Project title 3',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage3,
+  // },
+  // {
+  //   title: 'Project title 4',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage4,
+  // },
+  // {
+  //   title: 'Project title 5',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage5,
+  // },
+  // {
+  //   title: 'Project title 6',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage6,
+  // },
+  // {
+  //   title: 'Project title 7',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage7,
+  // },
+  // {
+  //   title: 'Project title 8',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage8,
+  // },
+  // {
+  //   title: 'Project title 9',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage9,
+  // },
+  // {
+  //   title: 'Project title 10',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage10,
+  // },
+  // {
+  //   title: 'Project title 11',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage11,
+  // },
 ];
 
 /**
@@ -268,65 +270,88 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2022',
+    location: 'Uclouvain',
+    title: 'Master in Corporate Finance',
+    content: <p>    During my Master’s in Corporate Finance, I developed a strong foundation in financial analysis, 
+    investment strategies, and risk management. I gained expertise in corporate valuation, 
+    financial modeling, and capital structure optimization. Through hands-on projects and case studies, 
+    I honed my analytical and problem-solving skills, learning to make data-driven financial decisions. 
+    Additionally, I became proficient in financial tools and technologies, reinforcing my ability to provide 
+    strategic insights in a business environment.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2022',
+    location: 'Online',
+    title: 'Data Science Certification',
+    content: <p>    Through this certification, I built a solid foundation in data science, covering key concepts such as 
+    machine learning, statistical analysis, and data preprocessing. I gained hands-on experience working 
+    with Python, Pandas, and Scikit-Learn to analyze and visualize data, develop predictive models, 
+    and automate workflows. The program strengthened my ability to extract insights from complex datasets, 
+    optimize business decisions, and apply AI-driven solutions in real-world scenarios.</p>,
   },
+  {
+    location: 'Collège Saint-Hubert',
+    title: 'High School',
+    content: <p></p>,
+  }
+  
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: '2023 - Present',
+    location: 'Bpost Group',
+    title: 'Power Bi Expert',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+      I initially joined Bpost Group through a traineeship, but I quickly transitioned into a data analysis 
+      role, focusing on Power BI and business intelligence. I work on transforming raw data into actionable 
+      insights, developing interactive dashboards, and optimizing reporting processes to support decision-making. 
+      My role involves working with various datasets, automating workflows, and continuously improving data 
+      visualization strategies to enhance operational efficiency.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2022 - February 2023',
+    location: 'AXA',
+    title: 'Project Analyst',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        As a Project Analyst at AXA, I contributed to internal audit initiatives by optimizing and automating key processes, 
+        enhancing efficiency and accuracy in data management and reporting. My role involved developing Excel and VBA-based 
+        tools to streamline workflows, significantly reducing manual effort and minimizing errors. I improved data analysis 
+        and reporting capabilities, enabling faster and more informed decision-making. Additionally, I collaborated with 
+        internal teams to identify inefficiencies and implement tailored automation solutions, driving operational improvements.
       </p>
     ),
-  },
+  }
 ];
 
 /**
  * Testimonial section
  */
+import maximeBogaert from '../images/maximebogaert.jpg';
+
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Arthur Dorzee',
+      text: 'Thomas is a fantastic colleague to work with—proactive, insightful, and always ready to tackle challenges with a problem-solving mindset. His expertise in data analysis and automation makes him a valuable asset to any team.',
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQHIussiTVBWwA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715604029449?e=1744243200&v=beta&t=lb8LH7BCFGIyjBb7jAyctJ9owqirJAbIOPySWKA-DdE'
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Maxime Bogaert',
+      text: 'Working with Arthur is a pleasure! His positive attitude and curiosity make every project more engaging and dynamic. He constantly brings fresh perspectives, thinking outside the box to find creative solutions. A great colleague who knows how to balance professionalism with a friendly and motivating presence in the team.',
+      image: maximeBogaert,
     },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+    // {
+    //   name: 'Someone else',
+    //   text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    // },
   ],
 };
 
@@ -336,28 +361,33 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Let me a message on my social media or send me an email.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'thomaskarskens@hotmail.com',
+      href: 'mailto:thomaskarskens@hotmail.com',
     },
-    {
-      type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+        {
+      type: ContactType.LinkedIn,
+      text: 'Lindkn',
+      href: 'https://www.linkedin.com/in/thomas-karskens/',
     },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
-    },
+    // {
+    //   type: ContactType.Location,
+    //   text: 'Tournai Hainaut, Belgium',
+    //   href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+    // },
+    // {
+    //   type: ContactType.Instagram,
+    //   text: '@tbakerx',
+    //   href: 'https://www.instagram.com/tbakerx/',
+    // },
+    // {
+    //   type: ContactType.Github,
+    //   text: 'tbakerx',
+    //   href: 'https://github.com/tbakerx',
+    // },
   ],
 };
 
@@ -365,9 +395,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  // {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/thomas-karskens/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];

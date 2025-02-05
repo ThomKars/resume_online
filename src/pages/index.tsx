@@ -25,7 +25,7 @@ const Home: FC = memo(() => {
       <Portfolio />
       <Testimonials />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </Page>
   );
 });
