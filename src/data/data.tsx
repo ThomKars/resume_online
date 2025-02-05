@@ -332,7 +332,7 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
-import maximeBogaert from '../images/maximebogaert.jpg';
+
 
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
@@ -345,7 +345,7 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Maxime Bogaert',
       text: 'Working with Thomas is a pleasure! His positive attitude and curiosity make every project more engaging and dynamic. He constantly brings fresh perspectives, thinking outside the box to find creative solutions. A great colleague who knows how to balance professionalism with a friendly and motivating presence in the team.',
-      image: maximeBogaert,
+      image: 'https://media.licdn.com/dms/image/v2/D4E03AQHIussiTVBWwA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715604029449?e=1744243200&v=beta&t=lb8LH7BCFGIyjBb7jAyctJ9owqirJAbIOPySWKA-DdE',
     },
     // {
     //   name: 'Someone else',
