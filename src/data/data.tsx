@@ -8,23 +8,23 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import GithubIcon from '../components/Icon/GithubIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+// import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+// import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+// import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+// import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+// import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+// import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -290,11 +290,11 @@ export const education: TimelineItem[] = [
     and automate workflows. The program strengthened my ability to extract insights from complex datasets, 
     optimize business decisions, and apply AI-driven solutions in real-world scenarios.</p>,
   },
-  {
-    location: 'Collège Saint-Hubert',
-    title: 'High School',
-    content: <p></p>,
-  }
+  // {
+  //   location: 'Collège Saint-Hubert',
+  //   title: 'High School',
+  //   content: <p></p>,
+  // }
   
 ];
 
@@ -344,7 +344,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Maxime Bogaert',
-      text: 'Working with Arthur is a pleasure! His positive attitude and curiosity make every project more engaging and dynamic. He constantly brings fresh perspectives, thinking outside the box to find creative solutions. A great colleague who knows how to balance professionalism with a friendly and motivating presence in the team.',
+      text: 'Working with Thomas is a pleasure! His positive attitude and curiosity make every project more engaging and dynamic. He constantly brings fresh perspectives, thinking outside the box to find creative solutions. A great colleague who knows how to balance professionalism with a friendly and motivating presence in the team.',
       image: maximeBogaert,
     },
     // {
